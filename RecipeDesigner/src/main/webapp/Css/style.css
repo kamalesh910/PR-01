@@ -1,0 +1,59 @@
+
+* {margin: 0; padding: 0;}
+
+#container {
+	height: 100%; 
+	width:100%; 
+	font-size: 0;
+	}
+
+#setlist, #workspace, #view {
+	display: inline-block; *display: inline; zoom: 1; 
+	vertical-align: top; 
+	font-size: 12px;
+	}
+
+#setlist {
+    width: 200px; 
+    height: 660px; 
+    background: #333;
+    
+	}
+
+#workspace {
+	width: 650px; 
+	height:660px; 
+	background: white;  
+	font-size: 15px; 
+	}
+
+
+
+#view {
+	width:247px; 
+	height:660px; 
+	background: #333;
+	
+	}
+#view h1{
+	color :white;
+}
+
+#setlist h1{
+	color :white;
+}
+
+#control { 
+        height: 30px; 
+        background:gray;
+        margin:10;
+        padding:10;
+         }
+
+#BUTTON {
+  height:600px;
+  margin: 7px;
+  padding: 20px;
+  background:white;
+  color:blue;
+}
